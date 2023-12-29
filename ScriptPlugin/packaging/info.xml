@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<!--
+This file is an example info.xml to be included in the dcext package. For more
+information, read "Plugin format (dcext).txt" in the "doc" directory.
+
+This file has been generated using the information filled in the src/version.h file.
+
+Edit the <Plugin> tags to include your plugin files.
+If you support Windows, include pe-x64 and pe-x86 platforms.
+If you support Linux, include elf-x64 and elf-x86 platforms.
+
+The <Files> tag is empty; should you want to distribute additional files, include them
+in there within <File> tags (again, more information in the above doc file).
+It is recommended you provide a .pdb file to ease debugging.
+
+When you are done editing this file, rename it to "info.xml", move the relevant files
+to this directory and zip them; rename that .zip to .dcext and you are done!
+-->
+
+<dcext>
+	<UUID>{6a8a51d8-50a9-4155-aa4c-8569c7aaf85b}</UUID>
+	<Name>Scripting plugin</Name>
+	<Version>1</Version>
+	<ApiVersion>8</ApiVersion>
+	<Author>DC++</Author>
+	<Description>Adds scripting support (supported languages: Lua).</Description>
+	<Website>http://dcplusplus.sourceforge.net/</Website>
+	<Plugin Platform="pe-x64">ScriptPlugin-x64.dll</Plugin>
+	<Plugin Platform="pe-x86">ScriptPlugin-x86.dll</Plugin>
+	<Files>
+		<File Platform="pe-x64">ScriptPlugin-x64.pdb</File>
+		<File Platform="pe-x86">ScriptPlugin-x86.pdb</File>
+		<File>scripts/adccommands.lua</File>
+		<File>scripts/bier.lua</File>
+		<File>scripts/ignore.lua</File>
+		<File>scripts/kickfilter.lua</File>
+		<File>scripts/libsimplepickle.lua</File>
+		<File>scripts/monologue.lua</File>
+		<File>scripts/mytimer.lua</File>
+		<File>scripts/onjoin.lua</File>
+		<File>scripts/p2pblock.lua</File>
+		<File>scripts/quiet_login.lua</File>
+		<File>scripts/search_reply.lua</File>
+		<File>scripts/startup.lua</File>
+		<File>scripts/uptime.lua</File>
+	</Files>
+</dcext>

@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Plugin SDK">
+      <UniqueIdentifier>{06f1f0f7-e8f5-48f2-999e-e53a04056b83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Plugin SDK">
+      <UniqueIdentifier>{ff6b64da-cee7-4033-bcef-4b0545314cbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\boost">
+      <UniqueIdentifier>{b28a1619-f667-4e01-8503-c7f42e59f292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\boost\system">
+      <UniqueIdentifier>{1f7dd20a-ca5b-4c65-9536-4d186ee4c17a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lua">
+      <UniqueIdentifier>{770d77ca-6c0f-4f49-9d04-38fb7072bdde}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pluginsdk\Config.cpp">
+      <Filter>Source Files\Plugin SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pluginsdk\Connections.cpp">
+      <Filter>Source Files\Plugin SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pluginsdk\Core.cpp">
+      <Filter>Source Files\Plugin SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pluginsdk\Hooks.cpp">
+      <Filter>Source Files\Plugin SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pluginsdk\Hubs.cpp">
+      <Filter>Source Files\Plugin SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pluginsdk\Logger.cpp">
+      <Filter>Source Files\Plugin SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pluginsdk\Queue.cpp">
+      <Filter>Source Files\Plugin SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pluginsdk\UI.cpp">
+      <Filter>Source Files\Plugin SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pluginsdk\Util.cpp">
+      <Filter>Source Files\Plugin SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pluginsdk\Tagger.cpp">
+      <Filter>Source Files\Plugin SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lbitlib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lcode.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lcorolib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lctype.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\ldblib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\ldebug.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\ldo.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\ldump.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lfunc.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lgc.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\linit.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\liolib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\llex.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lmathlib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lmem.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\loadlib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lobject.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lopcodes.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\loslib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lparser.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lstate.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lstring.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lstrlib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\ltable.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\ltablib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\ltm.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lundump.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lvm.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lzio.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lapi.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lauxlib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lbaselib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\boost\libs\system\src\error_code.cpp">
+      <Filter>Source Files\boost\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\LuaManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ScriptInstance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\Plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pluginsdk\Config.h">
+      <Filter>Header Files\Plugin SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pluginsdk\Connections.h">
+      <Filter>Header Files\Plugin SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pluginsdk\Core.h">
+      <Filter>Header Files\Plugin SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pluginsdk\Hooks.h">
+      <Filter>Header Files\Plugin SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pluginsdk\Hubs.h">
+      <Filter>Header Files\Plugin SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pluginsdk\Logger.h">
+      <Filter>Header Files\Plugin SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pluginsdk\Queue.h">
+      <Filter>Header Files\Plugin SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pluginsdk\UI.h">
+      <Filter>Header Files\Plugin SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pluginsdk\Util.h">
+      <Filter>Header Files\Plugin SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pluginsdk\Tagger.h">
+      <Filter>Header Files\Plugin SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pluginsdk\PluginDefs.h">
+      <Filter>Header Files\Plugin SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\LuaExec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\LuaManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\lunar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ScriptInstance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\CriticalSection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\src\resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

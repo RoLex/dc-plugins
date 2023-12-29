@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Plugin", "Plugin.vcxproj", "{B5273AD8-8E53-46CD-8797-65FE814DBFB0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Packager", "Packager.vcxproj", "{D21D696B-AC15-4706-874A-D8F801202D4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5273AD8-8E53-46CD-8797-65FE814DBFB0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B5273AD8-8E53-46CD-8797-65FE814DBFB0}.Debug|Win32.Build.0 = Debug|Win32
+		{B5273AD8-8E53-46CD-8797-65FE814DBFB0}.Debug|x64.ActiveCfg = Debug|x64
+		{B5273AD8-8E53-46CD-8797-65FE814DBFB0}.Debug|x64.Build.0 = Debug|x64
+		{B5273AD8-8E53-46CD-8797-65FE814DBFB0}.Release|Win32.ActiveCfg = Release|Win32
+		{B5273AD8-8E53-46CD-8797-65FE814DBFB0}.Release|Win32.Build.0 = Release|Win32
+		{B5273AD8-8E53-46CD-8797-65FE814DBFB0}.Release|x64.ActiveCfg = Release|x64
+		{B5273AD8-8E53-46CD-8797-65FE814DBFB0}.Release|x64.Build.0 = Release|x64
+		{D21D696B-AC15-4706-874A-D8F801202D4B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D21D696B-AC15-4706-874A-D8F801202D4B}.Debug|Win32.Build.0 = Debug|Win32
+		{D21D696B-AC15-4706-874A-D8F801202D4B}.Debug|x64.ActiveCfg = Debug|x64
+		{D21D696B-AC15-4706-874A-D8F801202D4B}.Debug|x64.Build.0 = Debug|x64
+		{D21D696B-AC15-4706-874A-D8F801202D4B}.Release|Win32.ActiveCfg = Release|Win32
+		{D21D696B-AC15-4706-874A-D8F801202D4B}.Release|Win32.Build.0 = Release|Win32
+		{D21D696B-AC15-4706-874A-D8F801202D4B}.Release|x64.ActiveCfg = Release|x64
+		{D21D696B-AC15-4706-874A-D8F801202D4B}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
