@@ -1,0 +1,6 @@
+1.10 - 2024-03-30
+- Remove LuaExec support
+- Update Lua engine to version 5.4.6
+
+1.00 - 2013-06-03
+- Initial release
